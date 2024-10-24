@@ -7,10 +7,22 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "375px",
+      md: "744px",
+      lg: "1024px",
+      xl: "1200px",
+    },
     extend: {
+      fontFamily: {
+        sans: ["Jost", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary: { 500: "#F7F4ED" },
+        gray: {
+          50: "#F9F9F9",
+          900: "#1a1a1a",
+        },
       },
     },
   },

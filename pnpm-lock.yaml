@@ -20,6 +20,9 @@ dependencies:
   swiper:
     specifier: ^11.1.14
     version: 11.1.14
+  use-breakpoint:
+    specifier: ^4.0.1
+    version: 4.0.1(react-dom@18.3.1)(react@18.1.0)
 
 devDependencies:
   '@types/node':
@@ -2790,6 +2793,16 @@ packages:
     dependencies:
       punycode: 2.3.1
     dev: true
+
+  /use-breakpoint@4.0.1(react-dom@18.3.1)(react@18.1.0):
+    resolution: {integrity: sha512-Fa5Duxv3BY3bw8kmj/lmryTETXVUmBQeYJpBgPJ2yJRiIaGVG8rlMNKQE+JS2rywCZHWaggVUz+ytbr7sH/yyg==}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+    dependencies:
+      react: 18.1.0
+      react-dom: 18.3.1(react@18.1.0)
+    dev: false
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
